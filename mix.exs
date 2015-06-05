@@ -1,10 +1,10 @@
-defmodule NewPhilaeExample.Mixfile do
+defmodule PhilaeVoterExample.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :new_philae_example,
+    [app: :philae_voter_example,
      version: "0.0.1",
-     elixir: "~> 1.0",
+     elixir: ">= 1.0.0",
      deps: deps]
   end
 
@@ -25,7 +25,7 @@ defmodule NewPhilaeExample.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    [{:philae, github: "https://github.com/cincinnati-elixir/philae"},
+    [{:philae, path: "../philae"},
      {:postgrex, "0.6.0"},
      {:ecto, "0.2.5"}]
   end

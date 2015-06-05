@@ -3,7 +3,7 @@
   "hackney": {:hex, :hackney, "1.0.6"},
   "httpoison": {:hex, :httpoison, "0.6.0"},
   "idna": {:hex, :idna, "1.0.2"},
-  "philae": {:git, "https://github.com/cincinnati-elixir/philae.git", "1fa0a18e84d89e1e9d14fa08754b4e871576b8bb", []},
+  "philae": {:git, "git://github.com/cincinnati-elixir/philae.git", "a84a9c57be1687c35bbba6264f6f1a3522e2283c", []},
   "poison": {:hex, :poison, "1.3.1"},
   "poolboy": {:hex, :poolboy, "1.2.1"},
   "postgrex": {:hex, :postgrex, "0.6.0"},
